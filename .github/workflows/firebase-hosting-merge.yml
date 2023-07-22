@@ -16,7 +16,7 @@ jobs:
           version: 6.0
           run_install: |
             - recursive: false
-              args: [--frozen-lockfile, --strict-peer-dependencies]
+              args: [--strict-peer-dependencies]
       - run: pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
