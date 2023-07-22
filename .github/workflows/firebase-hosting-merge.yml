@@ -24,3 +24,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KMAN_SK_DEPLOY }}'
           channelId: live
           projectId: kman-sk-deploy
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
