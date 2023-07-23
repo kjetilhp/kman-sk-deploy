@@ -1,4 +1,4 @@
-## testing 12345
+## testing
 
 # create-svelte
 
